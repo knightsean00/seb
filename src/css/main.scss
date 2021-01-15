@@ -1,0 +1,84 @@
+$red: #B9314F;
+$grey-100: #bcbdbf;
+$black: #0e0609;
+$white: #eff1f3;
+
+nav {
+    width: 100%;
+    max-width: 100vw;
+    position: absolute;
+}
+
+.nav-transparent {
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    color: $grey-100;
+    letter-spacing: .1rem;
+}
+
+.nav-primary {
+    background-color: $red;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    color: $grey-100;
+}
+
+.nav-item {
+    cursor: pointer;
+    transition: color 500ms ease-in-out;
+}
+
+.nav-item:hover {
+    color: $white;
+    transition: color 500ms ease-in-out;
+}
+
+.hamburger {
+    fill: $white;
+}
+
+.close {
+    fill: $black;
+}
+
+.hero {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-image: url("../imgs/test.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+.mobile-menu {
+    width: 100%;
+    max-width: 100vw;
+    height:100vh;
+    max-height:100vh;
+}
+
+.white {
+    color:$white;
+}
+
+.red {
+    color:$red;
+}
+
+footer {
+    background-color: $black;
+}
+
+.socials {
+    color:$white;
+    cursor: pointer;
+    transition: color 500ms ease-in-out;
+}
+
+.socials:hover {
+    color:$red;
+    transition: color 500ms ease-in-out;
+}
